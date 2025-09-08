@@ -1,0 +1,63 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+*.auto.tfvars
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Docker
+*.tar
+*.pid
+*.sock
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# Kubernetes
+*.yaml~
+*.yml~
+# AWS CLI config
+.aws/
+
+# Archivos temporales / del S.o
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Otros
+create_structure.sh
