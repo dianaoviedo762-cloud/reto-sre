@@ -22,7 +22,8 @@ dist/
 build/
 .env
 venv/
-.venv/
+.venv/venv
+
 
 # Terraform
 *.tfstate

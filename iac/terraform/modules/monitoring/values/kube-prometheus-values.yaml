@@ -1,0 +1,14 @@
+grafana:
+  enabled: true
+  admin:
+    existingSecret: "grafana-admin"
+    userKey: "admin-user"
+    passwordKey: "admin-password"
+
+prometheus:
+  prometheusSpec:
+    retention: "15d"
+    scrapeInterval: "15s"
+
+prometheus-node-exporter:
+  hostPort: false
